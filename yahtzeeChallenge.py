@@ -18,6 +18,8 @@ def yahtzee(roll):
     """
     for loop that iterates through list of dice, for each unique die value add it to
     values list and increment same index for count
+    
+    To improve, I would use list comprehension and the count function, which would remove some of the extra lists and lines
     """
     for i in range(length):
         #if roll value not in value list
